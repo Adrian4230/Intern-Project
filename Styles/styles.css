@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 .hero {
-    background-image: url('hero-image.jpg');
+    background-image: [assets] "med.jpg";
     background-size: cover;
     background-position: center;
     color: white;
