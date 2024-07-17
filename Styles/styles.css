@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #3ee1fe;
+    color: rgb(245, 84, 140);
     padding: 15px 0;
 }
 
@@ -32,15 +32,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(183, 172, 112);
     text-decoration: none;
 }
 
 .hero {
-    background-image: [assets] "med.jpg";
+    background-image: "med.jpg";
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(206, 200, 135);
     text-align: center;
     padding: 100px 0;
 }
@@ -89,7 +89,7 @@ nav ul li a {
 .contact input, .contact textarea {
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #0ea803;
     border-radius: 5px;
 }
 
@@ -97,14 +97,14 @@ nav ul li a {
     padding: 10px 20px;
     border: none;
     background-color: #333;
-    color: white;
+    color: rgb(5, 154, 25);
     border-radius: 5px;
     cursor: pointer;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #3cd9f9;
+    color: rgb(41, 204, 249);
     text-align: center;
     padding: 10px 0;
 }
