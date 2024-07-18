@@ -117,3 +117,17 @@ footer {
     text-align: center;
     padding: 100px 0;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100px; /* Adjust to desired size */
+}
+
+.hero img {
+    width: 100%; /* Ensures the hero image maintains full width */
+}
+
+.menu img, .about img, .contact img {
+    width: 100px; /* Adjust to desired size */
+}
