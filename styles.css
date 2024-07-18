@@ -108,3 +108,12 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+.hero {
+    background-image: url('../assets/Med.jpg'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
