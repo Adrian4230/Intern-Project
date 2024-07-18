@@ -110,7 +110,7 @@ footer {
 }
 
 .hero {
-    background-image: url('../assets/Med.jpg'); /* Adjust the path as necessary */
+    background-image: url('../Images/Med.jpg'); /* Adjust the path as necessary */
     background-size: cover;
     background-position: center;
     color: white;
