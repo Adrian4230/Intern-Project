@@ -2,22 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f5f5dc; /* Beige cream color */
+    color: #1e90ff; /* Mediterranean blue color */
 }
 
 header {
-    background-color: #3ee1fe;
-    color: rgb(245, 84, 140);
-    padding: 15px 0;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    margin: 0;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav ul {
@@ -25,110 +18,38 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: rgb(183, 172, 112);
-    text-decoration: none;
-}
-
-.hero {
-    background-image: "med.jpg";
-    background-size: cover;
-    background-position: center;
-    color: rgb(206, 200, 135);
-    text-align: center;
-    padding: 100px 0;
-}
-
-.hero h2 {
-    margin: 0;
-    font-size: 3em;
-}
-
-.hero p {
-    font-size: 1.5em;
-}
-
-.section {
-    padding: 50px 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-.menu ul li {
-    margin-bottom: 10px;
-}
-
-.about p, .contact form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.contact form {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact label {
-    margin: 10px 0 5px;
-}
-
-.contact input, .contact textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #0ea803;
-    border-radius: 5px;
-}
-
-.contact button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #333;
-    color: rgb(5, 154, 25);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-footer {
-    background-color: #3cd9f9;
-    color: rgb(41, 204, 249);
-    text-align: center;
-    padding: 10px 0;
-}
-
-.hero {
-    background-image: url('../Intern-Project/Images/Med.jpg'); /* Adjust the path as necessary */
-    background-size: cover;
-    background-position: center;
     color: white;
-    text-align: center;
-    padding: 100px 0;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
 }
 
-img {
-    
-    max-width: 100%;
-    height: auto;
-    width: 100px; /* Adjust to desired size */
+nav ul li a:hover {
+    background-color: #575757;
 }
 
-.hero img {
-    width: 100%; /* Ensures the hero image maintains full width */
+main {
+    padding-top: 70px; /* To avoid content being hidden behind fixed header */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.menu img, .about img, .contact img {
-    width: 100px; /* Adjust to desired size */
+section {
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: #1e90ff; /* Mediterranean blue color */
+}
+
+p {
+    color: #1e90ff; /* Mediterranean blue color */
 }
