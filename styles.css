@@ -2,14 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1e90ff;
-    color:  #f5f5dc; 
+    background-color: #fdfdfd; /* Pearl white background */
+    color: #000000; /* Black text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 header {
     background-color: #333;
-    position: fixed;
     width: 100%;
+    position: fixed;
     top: 0;
 }
 
@@ -33,13 +38,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #000000;
+    background-color: #575757;
 }
 
 main {
     padding-top: 70px; /* To avoid content being hidden behind fixed header */
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: center;
 }
 
 section {
@@ -47,9 +51,9 @@ section {
 }
 
 h1, h2 {
-    color: #000000; /* Mediterranean blue color */
+    color: #000000; /* Black text */
 }
 
 p {
-    color: #000000; /* Mediterranean blue color */
+    color: #000000; /* Black text */
 }
