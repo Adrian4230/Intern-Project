@@ -59,7 +59,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding-top: 150px; /* To avoid content being hidden behind fixed header */
+    padding-top: 250px; /* To avoid content being hidden behind fixed header */
     text-align: center;
 }
 
