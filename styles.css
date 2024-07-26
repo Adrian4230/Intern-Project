@@ -16,6 +16,21 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+    padding: 10px;
+    background-color: #ffffff; /* White background for logo */
+    width: 100%;
+    text-align: center;
+}
+
+.nav-logo {
+    max-width: 100%;
+    height: auto;
 }
 
 nav ul {
@@ -24,6 +39,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 nav ul li {
@@ -42,7 +58,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding-top: 70px; /* To avoid content being hidden behind fixed header */
+    padding-top: 150px; /* To avoid content being hidden behind fixed header */
     text-align: center;
 }
 
@@ -56,4 +72,20 @@ h1, h2 {
 
 p {
     color: #000000; /* Black text */
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .nav-logo {
+        width: 100%;
+        height: auto;
+    }
 }
