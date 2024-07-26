@@ -20,30 +20,201 @@
         </nav>
     </header>
 
-    <main>
-        <section id="appetizers">
-            <h1>Appetizers</h1>
-            <p>Our delicious appetizers to start your meal.</p>
-            <!-- Add appetizers items here -->
-        </section>
-
-        <section id="main-food">
-            <h2>Main Food</h2>
-            <p>Our main courses are made with authentic Greek recipes.</p>
-            <!-- Add main food items here -->
-        </section>
-
-        <section id="drinks">
-            <h2>Drinks</h2>
-            <p>Enjoy our selection of beverages.</p>
-            <!-- Add drinks items here -->
-        </section>
-
-        <section id="desserts">
-            <h2>Desserts</h2>
-            <p>End your meal with a sweet dessert.</p>
-            <!-- Add desserts items here -->
-        </section>
-    </main>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cocktail Menu</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #F9F4E8;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+            .menu {
+                width: 80%;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: #fff;
+                border: 1px solid #ccc;
+            }
+            .menu h1 {
+                text-align: center;
+                background-color: #4C3422;
+                color: white;
+                padding: 10px 0;
+                margin: 0 0 20px 0;
+            }
+            .menu h2 {
+                color: #0048BA;
+                border-bottom: 2px solid #0048BA;
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+            }
+            .menu h3 {
+                margin: 0;
+                padding: 10px 0;
+            }
+            .menu p {
+                margin: 5px 0;
+            }
+            .menu .section {
+                margin-bottom: 20px;
+            }
+            .menu .section:last-child {
+                margin-bottom: 0;
+            }
+            .menu .item {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0;
+            }
+            .menu .item div {
+                width: 45%;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 20px;
+                padding: 20px;
+                background-color: #F9F4E8;
+                border-top: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <h1>COCKTAIL MENU</h1>
+            <p style="text-align: center; color: #0048BA; font-weight: bold;">Sip, Relax, and Savor the Mediterranean</p>
+    
+            <div class="section">
+                <h2>SIGNATURE COCKTAILS</h2>
+                <div class="item">
+                    <div>
+                        <h3>Aegean Blue Martini</h3>
+                        <p>Vodka, blue curacao, sour lemon twist, and pineapple</p>
+                    </div>
+                    <div>
+                        <p>$16.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <h3>Patron Reposado Margarita</h3>
+                        <p>A sharp and refreshing blend of tequila with a taste of orange and agave</p>
+                    </div>
+                    <div>
+                        <p>$18.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <h3>Ouzu Lemon Breeze</h3>
+                        <p>Clear colored liquor with zesty lemon and a hint of fresh mint</p>
+                    </div>
+                    <div>
+                        <p>$17.00</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="section">
+                <h2>COASTAL REFRESHERS</h2>
+                <div class="item">
+                    <div>
+                        <h3>Mediterranean Sangria</h3>
+                        <p>Light rose wine mixed with St Germain liquor with watermelon cubes and mint</p>
+                    </div>
+                    <div>
+                        <p>$17.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <h3>Sunset Mai Tai</h3>
+                        <p>White rum mixed with orange curacao, fresh lime juice finished with orgeat</p>
+                    </div>
+                    <div>
+                        <p>$14.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <h3>Pink Lady</h3>
+                        <p>Bittersweet gin mixed with limoncello and Campari with a touch of citrus juice</p>
+                    </div>
+                    <div>
+                        <p>$16.00</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="section">
+                <h2>SPRITZ</h2>
+                <div class="item">
+                    <div>
+                        <h3>Mediterranean Spritz</h3>
+                        <p>Rosemary infused gin with fresh lime juice topped with sparkling wine</p>
+                    </div>
+                    <div>
+                        <p>$14.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <h3>Santorini Spritz</h3>
+                        <p>Vodka and Prosecco infused with pear nectar and a hint of orange zest</p>
+                    </div>
+                    <div>
+                        <p>$15.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <h3>VENEZA SPRITZ</h3>
+                        <p>Tequila with a mix of sweet Aperol, white wine, and sparkling mineral water</p>
+                    </div>
+                    <div>
+                        <p>$19.00</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="section">
+                <h2>ZERO-PROOF</h2>
+                <div class="item">
+                    <div>
+                        <h3>Spiced Pomegranate Fizz</h3>
+                        <p>Club soda, pomegranate juice, fresh pomegranate and a kick of honey</p>
+                    </div>
+                    <div>
+                        <p>$13.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <h3>Watermelon Rosemary Lemonade</h3>
+                        <p>Blended rosemary syrup with chilled watermelon chunks and frozen lemonade</p>
+                    </div>
+                    <div>
+                        <p>$11.00</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <h3>Mandarin Spritz</h3>
+                        <p>Freshly squeezed mandarin juice with lime garnished with fresh herb</p>
+                    </div>
+                    <div>
+                        <p>$12.00</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer">
+                <p>FROM THE FOUNDERS</p>
+                <p>At the Mediterranean Cocktail Lounge, every cocktail is crafted in front of your eyes in a hibachi-style setting. Enjoy the experience of the hand crafted cocktails by the spectacle of steam, smoke, and flair created by our mixologists!</p>
+            </div>
+        </div>
+    </body>
+    </html>
