@@ -31,6 +31,7 @@ header {
 .nav-logo {
     max-width: 100%;
     height: auto;
+    background-color: #0054c2;
 }
 
 nav ul {
