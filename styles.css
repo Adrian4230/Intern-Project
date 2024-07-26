@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fdfdfd; /* Pearl white background */
-    color: #000000; /* Black text */
+    background-color: #74c9fa; /* Pearl white background */
+    color: #0054c2; /* Black text */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #0054c2;
     width: 100%;
     position: fixed;
     top: 0;
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px 20px;
     display: block;
