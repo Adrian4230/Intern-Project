@@ -33,7 +33,8 @@
                 padding: 0;
             }
             .menu {
-                width: 80%;
+                width: 90%;
+                max-width: 800px;
                 margin: 20px auto;
                 padding: 20px;
                 background-color: #fff;
@@ -79,6 +80,22 @@
                 padding: 20px;
                 background-color: #F9F4E8;
                 border-top: 1px solid #ccc;
+            }
+            @media (max-width: 600px) {
+                .menu {
+                    padding: 10px;
+                }
+                .menu .item {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                .menu .item div {
+                    width: 100%;
+                }
+                .menu .item div p {
+                    text-align: right;
+                    width: 100%;
+                }
             }
         </style>
     </head>
